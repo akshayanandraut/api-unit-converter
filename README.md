@@ -1,37 +1,190 @@
-## Welcome to GitHub Pages
+#### **[Check out creator's details](https://akshayanandraut.github.io)**
 
-You can use the [editor on GitHub](https://github.com/akshayanandraut/api-unit-converter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Unit Converter API
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Convert units easily with this API. Read this documentation for detailed information.
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### API usage : 
+ 
+####GET
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+https://akshayanand.herokuapp.com/api/unit/?type=type&from=from&to=to&value=value
 
-### Jekyll Themes
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akshayanandraut/api-unit-converter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+---
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Parameters:
+
+```
+
+type   -  The type of unit (i.e. length, temperature, etc.) 
+from -  Specifies the from unit.
+to -  Specifies the to unit.
+value -  Specifies the value to convert.
+
+```
+
+-----
+
+### Output format:
+
+#### The output response will be in JSON format.. Kindly check the structure below.
+
+
+##### JSON format
+
+```json	
+
+{
+"data":[{
+		"unitType" : unitType,
+		"from" : from,
+		"fromUnit" : fromUnit ,
+		"to" : to ,
+		"toUnit" : toUnit ,
+		"value" : value ,
+		"result" : result
+	}]
+}
+
+```
+
+---
+
+
+##### NOTE:
+
+_Please go through the location codes and error codes page to properly use the api call parameters avoid confusion._
+
+
+---
+
+
+## Unit Codes
+
+
+###LENGTH
+
+**_Unit code_** | **_Unit_**
+
+**mts** | Meters
+**kilomts** | Kilometers
+**cmts** | Centimeters
+**millimts** | Millimeters
+**micromts** | Micrometers
+**nanomts** | Nanometers
+**mile** | Miles
+**yard** | Yards
+**foot** | Foot
+**inch** | Inches
+**lightyear** | Light Year
+
+
+###TEMPERATURE
+
+**_Unit code_** | **_Unit_**
+
+**celsius** | celsius
+**kelvin** | Kelvin
+**fahrenheit** | Fahrenheit
+
+
+###AREA
+
+**_Unit code_** | **_Unit_**
+
+**sqmts** | Square Meters
+**sqkmts** | Square Kilometers
+**sqcmts** | Square Centimeters
+**sqmmts** | Square Millimeters
+**sqmicromts** | Square Micrometers
+**hectare** | Hectares
+**sqmile** | Square Mile
+**sqyard** | Square Yards
+**sqft** | Square Feet
+**sqinch** | Square Inches
+**acre** | Acres
+
+###VOLUME
+
+**_Unit code_** | **_Unit_**
+
+**cumts** | Cubic Meter
+**cukmts** | Cubic Kilometer
+**cucmts** | Cubic Centimeter
+**cummts** | Cubic Millimeter
+**lts** | Liter
+**mlts** | Millimeter
+**usgallon** | US Gallon
+**usquart** | US Quart
+**uspint** | US Pint
+**uscup** | US Cup
+**usfluidounce** | US Fluid Ounce
+**ustablebspoon** | US Table Spoon
+**usteaspoon** | US Tea Spoon
+**impgallon** | Imperial Gallon
+**impquart** | Imperial Quart
+**imppint** | Imperial Pint
+**impfluidounce** | Imperial Fluid Ounce
+**imptablespoon** | Imperial Table Spoon
+**impteaspoon** | Imperial Tea Spoon
+**cumile** | Cubic Mile
+**cuyard** | cubic Yard
+**cufoot** | Cubic Foot
+**cuinch** | Cubic Inch
+
+
+###WEIGHT
+
+**_Unit code_** | **_Unit_**
+
+**kgms** | Kilogram
+**gms** | Gram
+**mgms** | Milligram
+**metricton** | Metric Ton
+**longton** | Long Ton
+**shortton** | Short Ton
+**pound** | Pound
+**ounce** | Ounce
+**carrat** | Carrat
+**atomicmass** | Atomic Mass Unit
+
+
+###TIME
+
+**_Unit code_** | **_Unit_**
+
+**sec** | Second
+**milisec** | Millisecond
+**microsec** | Microsecond
+**nanosec** | Nanosecond
+**picosec** | Picosecond
+**min** | Minute
+**hour** | Hour
+**day** | Day
+**week** | Week
+**month** | Month
+**year** | Year
+
+
+ -----	
+ 
+## Error Codes
+
+ **_ERROR NO._** | **_ERROR_** | **_DESCRIPTION_**
+-------------- | -------------- | ----------------
+	**001**    | *ERROR001* | This error occues if there is a problem with the input data and/or parameters specified.
+    
+    
+-----
+
+[Visit the creator's site...](https://akshayanandraut.github.io)
