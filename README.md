@@ -91,7 +91,7 @@ _Please go through the location codes and error codes page to properly use the a
 
 **_Unit code_** | **_Unit_**
 
-**celsius** | celsius
+**celsius** | Celsius
 **kelvin** | Kelvin
 **fahrenheit** | Fahrenheit
 
