@@ -44,8 +44,7 @@ value -  Specifies the value to convert.
 
 ```json	
 
-{
-"data":[{
+"data":{
 		"unitType" : unitType,
 		"from" : from,
 		"fromUnit" : fromUnit ,
@@ -53,8 +52,8 @@ value -  Specifies the value to convert.
 		"toUnit" : toUnit ,
 		"value" : value ,
 		"result" : result
-	}]
 }
+
 
 ```
 
