@@ -45,12 +45,12 @@ value -  Specifies the value to convert.
 ```json	
 
 "data":{
-		"unitType" : unitType,
-		"from" : from,
-		"fromUnit" : fromUnit ,
-		"to" : to ,
-		"toUnit" : toUnit ,
-		"value" : value ,
+		"unitType" : "unitType",
+		"from" : "from",
+		"fromUnit" : "fromUnit",
+		"to" : "to",
+		"toUnit" : "toUnit",
+		"value" : value,
 		"result" : result
 }
 
