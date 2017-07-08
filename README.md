@@ -12,7 +12,7 @@
 
 ### API usage : 
  
-####GET
+#### GET
 ```
 
 https://akshayanand.herokuapp.com/api/unit/?type=type&from=from&to=to&value=value
@@ -37,7 +37,7 @@ value -  Specifies the value to convert.
 
 ### Output format:
 
-#### The output response will be in JSON format.. Kindly check the structure below.
+#### The output response will be in JSON format. Kindly check the structure below.
 
 
 ##### JSON format
@@ -70,8 +70,7 @@ _Please go through the location codes and error codes page to properly use the a
 
 ## Unit Codes
 
-
-###LENGTH
+### LENGTH
 
 **_Unit code_** | **_Unit_**
 
@@ -88,7 +87,7 @@ _Please go through the location codes and error codes page to properly use the a
 **lightyear** | Light Year
 
 
-###TEMPERATURE
+### TEMPERATURE
 
 **_Unit code_** | **_Unit_**
 
@@ -97,7 +96,7 @@ _Please go through the location codes and error codes page to properly use the a
 **fahrenheit** | Fahrenheit
 
 
-###AREA
+### AREA
 
 **_Unit code_** | **_Unit_**
 
@@ -113,7 +112,7 @@ _Please go through the location codes and error codes page to properly use the a
 **sqinch** | Square Inches
 **acre** | Acres
 
-###VOLUME
+### VOLUME
 
 **_Unit code_** | **_Unit_**
 
@@ -142,7 +141,7 @@ _Please go through the location codes and error codes page to properly use the a
 **cuinch** | Cubic Inch
 
 
-###WEIGHT
+### WEIGHT
 
 **_Unit code_** | **_Unit_**
 
@@ -158,7 +157,7 @@ _Please go through the location codes and error codes page to properly use the a
 **atomicmass** | Atomic Mass Unit
 
 
-###TIME
+### TIME
 
 **_Unit code_** | **_Unit_**
 
