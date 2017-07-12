@@ -85,7 +85,7 @@ _Please go through the location codes and error codes page to properly use the a
 
 ## Unit Codes
 
-### LENGTH
+### LENGTH (_len_)
 
 **_Unit code_** | **_Unit_**
 
@@ -102,7 +102,7 @@ _Please go through the location codes and error codes page to properly use the a
 **lightyear** | Light Year
 
 
-### TEMPERATURE
+### TEMPERATURE (_temp_)
 
 **_Unit code_** | **_Unit_**
 
@@ -111,7 +111,7 @@ _Please go through the location codes and error codes page to properly use the a
 **fahrenheit** | Fahrenheit
 
 
-### AREA
+### AREA (_area_)
 
 **_Unit code_** | **_Unit_**
 
@@ -127,7 +127,7 @@ _Please go through the location codes and error codes page to properly use the a
 **sqinch** | Square Inches
 **acre** | Acres
 
-### VOLUME
+### VOLUME (_vol_)
 
 **_Unit code_** | **_Unit_**
 
@@ -156,7 +156,7 @@ _Please go through the location codes and error codes page to properly use the a
 **cuinch** | Cubic Inch
 
 
-### WEIGHT
+### WEIGHT (_weight_)
 
 **_Unit code_** | **_Unit_**
 
@@ -172,7 +172,7 @@ _Please go through the location codes and error codes page to properly use the a
 **atomicmass** | Atomic Mass Unit
 
 
-### TIME
+### TIME (_time_)
 
 **_Unit code_** | **_Unit_**
 
