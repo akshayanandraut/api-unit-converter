@@ -68,6 +68,21 @@ _Please go through the location codes and error codes page to properly use the a
 ---
 
 
+## Type Codes
+
+**_Type code_** | **_Type_**
+
+**len** | Length
+**temp** | Temperature
+**area** | Area
+**vol** | Volume
+**weight** | Weight
+**time** | Time
+
+
+---
+
+
 ## Unit Codes
 
 ### LENGTH
